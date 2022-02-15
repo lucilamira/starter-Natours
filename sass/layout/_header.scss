@@ -10,6 +10,7 @@
   position: relative;
 
   /*clip-path: polygon (x y, x y, x y, x y) as many x and y as points we want to modify, in this case it was 4, but to create a triangle for example you only need 3*/
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
