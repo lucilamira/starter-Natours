@@ -31,4 +31,9 @@ body {
   @include respond(tab-land) { 
     padding: 0;
   }
+
+  ::selection {
+    background-color: $color-primary;
+    color: $color-white;
+  }
 }
